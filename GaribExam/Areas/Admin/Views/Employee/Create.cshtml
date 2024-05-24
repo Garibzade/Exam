@@ -1,0 +1,27 @@
+﻿@model CreateEmployeeVM
+
+
+<div class="card-body">
+    <form method="post">
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Nam and Surname</label>
+            <input asp-for="Name" class="form-control">
+            
+        </div>
+        <div class="mb-3">
+            <label asp-for="Position" class="form-label">Position</label>
+            <input asp-for="Position" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label asp-for="Gmail" class="form-label">Gamil</label>
+            <input asp-for="Gmail" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label asp-for="ImageUrl" class="form-label">Image</label>
+            <input asp-for="ImageUrl" class="form-control">
+            
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
